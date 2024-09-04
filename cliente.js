@@ -5,8 +5,7 @@ socket.onopen = () => {
 }
 
 socket.onmessage = (event) => {
-  let data;
-  event.data.json().then(data => data = data)
+  let data = JSON.parse(event.data)
   if (data.sender != "self") {
     let chat = document.querySelector("#chat")
     let mensagem = document.createElement("div")
