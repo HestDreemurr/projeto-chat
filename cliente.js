@@ -11,8 +11,7 @@ socket.onmessage = (event) => {
     let chat = document.querySelector("#chat")
     let mensagem = document.createElement("div")
     mensagem.classList.add("mensagem")
-    
-    event.data.text().then(msg => mensagem.innerText = msg)
+    mensagem.innerText = data.mensagem
     chat.appendChild(mensagem)
   }
 }
