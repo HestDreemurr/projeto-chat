@@ -33,6 +33,7 @@ body {
 
 .enviada {
   background: darkblue;
+  margin-left: auto;
 }
 
 #send {
