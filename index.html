@@ -4,19 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Chat em Tempo Real</title>
+  <title>Projeto Chat</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="chat">
-    <h1>Chat</h1>
-  </div>
+  <h1>Projeto Chat</h1>
+  <h2>Chat em Tempo real com WebSocket</h2>
   
-  <div id="send">
-    <input type="text" id="input" placeholder="Mensagem..."
-    oninput="mostrarEnviar()">
-    <button onclick="enviarMensagem()" id="enviar">Enviar</button>
-  </div>
-  <script src="cliente.js"></script>
+  <section>
+    <input type="text" id="username" placeholder="Insira um nome de usuário...">
+    <button onclick="entrar()">Entrar</button>
+  </section>
+  <script src="script.js"></script>
 </body>
 </html>

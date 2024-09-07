@@ -1,54 +1,38 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  font-family: Arial, Helvetica, Sans-Serif;
   background: lightskyblue;
+  color: white;
 }
 
-#chat {
-  height: 90vh;
-  padding: 10px;
-}
-
-#chat > h1 {
+h1, h2 {
   text-align: center;
-  color: white;
-  border-bottom: 1px solid white;
+}
+
+h2 {
+  color: #d8ecf3;
+}
+
+section {
+  background: white;
   padding: 10px;
-  margin-bottom: 15px;
-}
-
-.mensagem {
-  color: white;
-  background: #2d829d;
-  padding: 5px;
   border-radius: 10px;
-  width: 200px;
-  margin-bottom: 5px;
+  box-shadow: 2px 2px 2px #0000005b;
 }
 
-.enviada {
+input, button {
+  display: block;
+}
+
+input {
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+button {
+  margin: auto;
   background: darkblue;
-}
-
-#send {
-  border: 1px solid white;
-  padding: 10px;
-  margin: 10px;
-  border-radius: 10px;
-}
-
-#input {
-  width: 100%;
   padding: 5px;
   border-radius: 5px;
-}
-
-#enviar {
-  display: none;
-  transform: translate(320px, -27px);
+  color: white;
+  border: none;
+  font-size: 16px;
 }
