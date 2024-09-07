@@ -1,5 +1,5 @@
 const socket = new
-WebSocket("ws://localhost:8080") // Se conecta ao servidor WebSocket
+WebSocket("wss://df36c15c-9bf4-499f-9fc1-37d3a0d51872-00-n0hngb84iljj.worf.replit.dev/") // Se conecta ao servidor WebSocket
 
 let username = JSON.parse(localStorage.getItem("user")).nome
 
